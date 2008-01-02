@@ -16,6 +16,7 @@ Requires:	netpbm
 Requires:	perl-Image-ExifTool >= 6.12-3mdk
 BuildRequires:	perl-doc
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 textocr.pm is a plugin for spamassassin 3.1+ to detect suspect pictures and
