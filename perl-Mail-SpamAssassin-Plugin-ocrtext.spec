@@ -1,7 +1,7 @@
 Summary:	TextOCR scanner and image validator SpamAssassin plugin
 Name:		perl-Mail-SpamAssassin-Plugin-ocrtext
 Version:	3.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	Apache License
 Group:		Development/Perl
 URL:		http://antispam.imp.ch/patches/
@@ -16,7 +16,7 @@ Requires:	netpbm
 Requires:	perl-Image-ExifTool >= 6.12-3mdk
 BuildRequires:	perl-doc
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-%{version}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 textocr.pm is a plugin for spamassassin 3.1+ to detect suspect pictures and
