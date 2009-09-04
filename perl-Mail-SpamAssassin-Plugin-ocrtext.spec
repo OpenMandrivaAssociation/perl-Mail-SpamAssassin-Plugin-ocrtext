@@ -1,7 +1,7 @@
 Summary:	TextOCR scanner and image validator SpamAssassin plugin
 Name:		perl-Mail-SpamAssassin-Plugin-ocrtext
 Version:	3.2
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	Apache License
 Group:		Development/Perl
 URL:		http://antispam.imp.ch/patches/
