@@ -74,3 +74,42 @@ fi
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/mail/spamassassin/ocrtext.pre
 %{perl_vendorlib}/Mail/SpamAssassin/Plugin/ocrtext.pm
 %{_mandir}/man3/Mail::SpamAssassin::Plugin::ocrtext.3pm*
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 3.2-3mdv2010.0
++ Revision: 430489
+- rebuild
+
+* Sun Jul 20 2008 Oden Eriksson <oeriksson@mandriva.com> 3.2-2mdv2009.0
++ Revision: 239113
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Jul 01 2007 Oden Eriksson <oeriksson@mandriva.com> 3.2-1mdv2008.0
++ Revision: 46388
+- 3.2
+
+
+* Sun Dec 17 2006 Oden Eriksson <oeriksson@mandriva.com> 3.1-1mdv2007.0
++ Revision: 98300
+- more small fixes
+- fix a small issue
+- 3.1
+- fix a bug since 1.7 to make it actually work
+- Import perl-Mail-SpamAssassin-Plugin-ocrtext
+
+* Mon Oct 16 2006 Oden Eriksson <oeriksson@mandriva.com> 1.9-1mdv2007.1
+- 1.9
+
+* Sun Aug 13 2006 Oden Eriksson <oeriksson@mandriva.com> 1.7-1mdv2007.0
+- 1.7
+
+* Fri May 19 2006 Oden Eriksson <oeriksson@mandriva.com> 1.6.1-1mdk
+- initial Mandriva package
+
