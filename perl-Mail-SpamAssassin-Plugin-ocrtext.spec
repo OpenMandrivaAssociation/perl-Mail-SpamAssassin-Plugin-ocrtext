@@ -4,7 +4,7 @@ Version:	3.2
 Release:	5
 License:	Apache License
 Group:		Development/Perl
-URL:		http://antispam.imp.ch/patches/
+URL:		https://antispam.imp.ch/patches/
 #Source0:	http://antispam.imp.ch/patches/patch-ocrtext
 Source0:	http://antispam.imp.ch/patches/ocrtext-3.2.tgz
 Requires(pre): rpm-helper
